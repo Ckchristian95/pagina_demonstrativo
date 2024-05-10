@@ -1,0 +1,48 @@
+@font-face{
+    src: url(/Fonts/Mont/Mont-Regular.otf);
+    font-family: Mont-Regular;
+    src:url(/Fonts/Roboto/Roboto-Regular.ttf);
+    font-family: Roboto-Regular;
+    src: url(/Fonts/Roboto/Roboto-Thin.ttf);
+    font-family: Roboto-thin;
+}
+
+.title{
+    display:grid;
+    background: rgb(202, 252, 202);
+    height: 58%;
+    justify-content: center;
+    align-items:center;
+    position:absolute;
+    width: 100%;
+    
+}
+.title h1{
+    align-self: flex-start;
+    font-family: Roboto-thin;
+    font-size: 45px;
+    margin-top: 60px;
+    margin-left: 240px;
+    
+}
+
+.title h2{
+    justify-self: center;
+    font-family: Roboto-thin;
+    opacity: 60%;
+    
+    
+}
+
+.title p {
+    position: relative;
+    justify-self: flex-end;
+    align-self: flex-start;
+    margin-bottom: 110px;
+    margin-left:800px;
+    padding-left: 40px;
+    font-size: 15px;
+}
+
+
+

@@ -1,0 +1,169 @@
+@font-face{
+    src: url(/Fonts/Mont/Mont-Regular.otf);
+    font-family: Mont-Regular;
+    src:url(/Fonts/Roboto/Roboto-Regular.ttf);
+    font-family: Roboto-Regular;
+}
+
+*{
+    font-family: Roboto-Regular;
+    padding: 0;
+    margin: 0;
+    box-sizing: borderbox;
+}
+a{
+    color: currentColor;
+    font-size: 15px;
+}
+.black-logo{
+    height: 50px;
+    width: 110px;
+    margin-right: 10px;
+    align-self: center;
+}
+header {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    background-color: white;
+    font-size:small;
+    color: black;
+}
+.menu1 ul {
+    height: 100%;
+    margin-top: 20px;
+    margin-right:150px;
+}
+
+.menu2 ul {
+   
+    margin-top: 20px;
+    margin-left: 150px;
+}
+.menu1 ul li{
+    
+    display: inline-block;
+    margin: 0 10px;
+    position: relative;
+}
+
+.menu1 ul li a{
+    text-decoration: none;
+    
+}
+
+.menu2 ul li{
+    display: inline-block;
+    margin: 0 10px;
+    position: relative;
+}
+
+.menu2 ul li a{
+    text-decoration: none;
+    
+}
+.container {
+    display: flex;
+    justify-content: space-between; 
+}
+
+
+.btn_login{
+    align-self: center;
+    background: white;
+    height: 40px;
+    width: 110px;
+    border-radius: 10px;
+    margin: 0 5px;
+    border-width: 0.1px;
+    border-color: rgb(225, 215, 215);
+    border-style:double;
+    font-size:15px;
+}
+.btn_started{
+    align-self: center;
+    background:rgb(42, 34, 203);
+    height: 40px;
+    width: 110px;
+    border-radius: 10px;
+    margin: 0 5px;
+    border-width: 0.1px;
+    border-color: rgb(225, 215, 215);
+    border-style:double;
+    color: white;
+    font-size:15px;
+}
+
+.btn_login:hover{
+    background: #e9e9e9;
+}
+.btn_started:hover{
+    background:rgb(84, 77, 225) ;
+}
+
+.menu1 ul li a::after{
+    content: '';
+    position: absolute;
+    bottom: 0.1px;
+    left: 2%;
+    width: 0;
+    height: 2px;
+    background: #1EA358;
+    transition: all 300ms ease-in-out;
+}
+.menu1 ul li a:hover:after{
+    width: 100%;
+}
+
+.menu2 ul li a::after{
+    content: '';
+    position: absolute;
+    bottom: 0.1px;
+    left: 2%;
+    width: 0;
+    height: 2px;
+    background: #1EA358;
+    transition: all 300ms ease-in-out;
+}
+.menu2 ul li a:hover:after{
+    width: 100%;
+}
+
+.dropdown-menu{
+    position: absolute;
+    box-shadow: 0 0 2px black;
+    display: none;
+    background-color: white;
+    border-radius: 10%;
+}
+.dropdown-menu a{
+    display:block; 
+    margin-top: 15px;
+    margin-left: 10px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    width: 100px;
+    position: relative;
+}
+
+.dropdown-menu a::after {
+    content: '';
+    position: absolute;
+    bottom: 0.1px;
+    left: 2%;
+    width: 0;
+    height: 2px;
+    background: #1EA358;
+    transition: all 300ms ease-in-out;
+}
+
+.dropdown-menu a:hover{
+    width: 80%;
+}
+
+.dropdown:hover .dropdown-menu{
+    display: block;
+    z-index: 1;
+}
+

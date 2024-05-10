@@ -1,0 +1,257 @@
+.promotions{
+    display:flex;
+    
+    
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 1%;
+}
+
+
+/* =======================================================*/
+.promotions .plans1{
+    display:grid;
+    justify-content: center;
+    width: 250px;
+    height: 320px;
+    margin-top: 250px;
+    margin-left: 20px;
+    justify-self: center;
+    position: relative;
+    background: rgba(248, 246, 246, 0.588);
+    border-radius: 20px;
+    margin-bottom:30px;
+    border: 1px solid rgba(0, 0, 0, 0.188);
+}
+
+.promotions .plans1 h1 {
+    justify-self: center;
+}
+
+.promotions .plans1 p {
+    justify-self: center;
+    opacity: 60%;
+}
+
+.promotions .plans1 ul{
+    justify-self: center;
+    list-style:none;
+    opacity: 60%;
+}
+.promotions .plans1 button  {
+    align-self: center;
+    background:#1EA358;
+    height: 60px;
+    width: 230px;
+    border-radius: 10px;
+    border-color: rgb(225, 215, 215);
+    border-style:double;
+    color: white;
+    font-size:20px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+.promotions .plans1 button:hover{
+    background:rgb(84, 77, 225);
+}
+
+/* =======================================================*/
+
+.promotions .plans2{
+    display:grid;
+    justify-content: center;
+    width: 250px;
+    height: 325px;
+    margin-top: 250px;
+    margin-left: 20px;
+    justify-self: center;
+    position: relative;
+    background: rgba(248, 246, 246, 0.588);
+    border-radius: 20px;
+    margin-bottom:30px;
+    border: 1px solid rgba(0, 0, 0, 0.188);
+}
+.promotions .plans2 p{
+    margin-bottom: 21.5px;
+}
+.promotions .plans2 .p2{
+    margin-bottom: 5px;
+    margin-top: 0;
+}
+.promotions .plans2 h1 {
+    justify-self: center;
+    display: flex;
+    margin-bottom: 9px;
+}
+.promotions .plans2 h1 p {
+    font-size: 15px;
+    align-self: flex-end;
+    padding-top: 10px;
+}
+
+.promotions .plans2 p {
+    justify-self: center;
+    opacity: 60%;
+}
+
+.promotions .plans2 ul{
+    justify-self: center;
+    list-style:none;
+    opacity: 60%;
+}
+.promotions .plans2 button  {
+    align-self: center;
+    background:#1EA358;
+    height: 60px;
+    width: 230px;
+    border-radius: 10px;
+    border-color: rgb(225, 215, 215);
+    border-style:double;
+    color: white;
+    font-size:20px;
+    margin-bottom: 10px;
+}
+
+.promotions .plans2 button:hover{
+    background:rgb(238, 163, 77);
+}
+
+/* =======================================================*/
+
+.promotions .plans3{
+    display:grid;
+    justify-content: center;
+    width: 250px;
+    height: 325px;
+    margin-top: 250px;
+    margin-left: 20px;
+    justify-self: center;
+    position: relative;
+    background: rgba(248, 246, 246, 0.588);
+    border-radius: 20px;
+    margin-bottom:30px;
+    border: 1px solid rgba(0, 0, 0, 0.188);
+}
+.promotions .plans3 p{
+    margin-bottom: 21.5px;
+}
+.promotions .plans3 .p2{
+    margin-bottom: 5px;
+    margin-top: 0;
+}
+.promotions .plans3 h1 {
+    justify-self: center;
+    display: flex;
+    margin-bottom: 9px;
+}
+.promotions .plans3 h1 p {
+    font-size: 15px;
+    align-self: flex-end;
+    padding-top: 10px;
+}
+
+.promotions .plans3 p {
+    justify-self: center;
+    opacity: 60%;
+}
+
+.promotions .plans3 ul{
+    justify-self: center;
+    list-style:none;
+    opacity: 60%;
+}
+.promotions .plans3 button  {
+    align-self: center;
+    background:#1EA358;
+    height: 60px;
+    width: 230px;
+    border-radius: 10px;
+    border-color: rgb(225, 215, 215);
+    border-style:double;
+    color: white;
+    font-size:20px;
+    margin-bottom: 10px;
+}
+
+.promotions .plans3 button:hover{
+    background:rgb(177, 49, 55);
+}
+
+/* =======================================================*/
+
+.promotions .plans4{
+    display:grid;
+    justify-content: center;
+    width: 250px;
+    height: 325px;
+    margin-top: 250px;
+    margin-left: 20px;
+    justify-self: center;
+    position: relative;
+    background: rgba(248, 246, 246, 0.588);
+    border-radius: 20px;
+    margin-bottom:30px;
+    border: 1px solid rgba(0, 0, 0, 0.188);
+}
+.promotions .plans4 p{
+    margin-bottom: 21.5px;
+}
+.promotions .plans4 .p2{
+    margin-bottom: 5px;
+    margin-top: 0;
+}
+.promotions .plans4 h1 {
+    justify-self: center;
+    display: flex;
+    margin-bottom: 9px;
+}
+.promotions .plans4 h1 p {
+    font-size: 15px;
+    align-self: flex-end;
+    padding-top: 10px;
+}
+
+.promotions .plans4 p {
+    justify-self: center;
+    opacity: 60%;
+}
+
+.promotions .plans4 ul{
+    justify-self: center;
+    list-style:none;
+    opacity: 60%;
+}
+.promotions .plans4 button  {
+    align-self: center;
+    background:#1EA358;
+    height: 60px;
+    width: 230px;
+    border-radius: 10px;
+    border-color: rgb(225, 215, 215);
+    border-style:double;
+    color: white;
+    font-size:20px;
+    margin-bottom: 10px;
+}
+
+.promotions .plans4 button:hover{
+    background:rgb(153, 73, 162);
+}
+
+.type{
+    color:rgb(84, 77, 225);
+}
+
+.type2{
+    color: rgb(255, 136, 0);
+}
+
+.type3{
+    color: rgb(177, 49, 55);
+}
+
+.type4{
+    color: rgb(153, 73, 162);
+}
